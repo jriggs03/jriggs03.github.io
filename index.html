@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="James Riggs — Cal Poly student building distributed systems, backend software, and data pipelines. Selected projects and a little about me.">
+  <meta name="theme-color" content="#193f35">
+  <title>James Riggs — Software & Systems</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="wrap topbar">
+    <a class="wordmark" href="#">James Riggs<span class="dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="intro">
+      <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> CAL POLY · CLASS OF 2027</div>
+      <h1 id="intro">Curious about<br>what happens<br><em>under the hood.</em></h1>
+      <div class="hero-bottom"><p>I’m James, a Statistics student with minors in Computer Science and Data Science. I build software to explore how systems coordinate work, store data, and recover when things go wrong.</p><a class="round-link" href="#projects">Explore my work <span aria-hidden="true">↓</span></a></div>
+      <div class="interests"><span>Distributed systems</span><span>Backend engineering</span><span>Data infrastructure</span></div>
+    </section>
+
+    <section id="projects" class="wrap projects" aria-labelledby="project-heading">
+      <div class="section-heading"><div><span class="eyebrow">01 / SELECTED WORK</span><h2 id="project-heading">Things I’ve built.</h2></div><p>A mix of independent projects<br>and work from the classroom.</p></div>
+      <article class="featured">
+        <div class="featured-copy"><span class="project-kind">INDEPENDENT PROJECT · IN DEVELOPMENT</span><h3>RaceState</h3><p>Collects F1 events with durable storage and replay.</p><div class="tags"><span>Python</span><span>SQLite</span><span>OpenF1</span></div><a class="source" href="https://github.com/jriggs03/racestate">View project <span aria-hidden="true">↗</span></a></div>
+        <div class="flow" role="img" aria-label="RaceState ingestion: OpenF1 events enter a SQLite event log, then can be replayed or archived."><div class="flow-caption">THE DATA’S JOURNEY</div><div class="flow-node">OpenF1 events<span>ingest & normalize</span></div><div class="connector" aria-hidden="true">↓</div><div class="flow-node primary">SQLite event log<span>persist & deduplicate</span></div><div class="connector" aria-hidden="true">↓</div><div class="flow-fork"><span>Replay</span><span>Archive</span></div><p class="flow-note">Separate browser demo uses simulated telemetry.</p></div>
+      </article>
+      <div class="project-grid">
+        <article class="project"><div class="project-top"><span class="project-kind">COURSE PROJECT · CSC 364</span><span class="project-number">02</span></div><h3>Distributed Job<br>Processing System</h3><p>Java workers process jobs over MQTT.</p><div class="tags"><span>Java</span><span>MQTT</span><span>Concurrency</span></div><a class="source" href="https://github.com/jriggs03/Distributed-Arithmetic">View project <span aria-hidden="true">↗</span></a></article>
+        <article class="project"><div class="project-top"><span class="project-kind">COURSE PROJECT · CSC 369</span><span class="project-number">03</span></div><h3>Spark Book<br>Recommender</h3><p>Finds book recommendations from reading patterns.</p><div class="tags"><span>Scala</span><span>Apache Spark</span></div><a class="source" href="https://github.com/jriggs03/spark-book-recommender">View project <span aria-hidden="true">↗</span></a></article>
+        <article class="project"><div class="project-top"><span class="project-kind">COURSE PROJECT · CSC 365</span><span class="project-number">04</span></div><h3>LEGO Relational<br>Database</h3><p>Loads LEGO data into linked SQL tables.</p><div class="tags"><span>SQL</span><span>SQLite</span><span>Python</span></div><a class="source" href="https://github.com/jriggs03/lego-relational-database">View project <span aria-hidden="true">↗</span></a></article>
+        <article class="project"><div class="project-top"><span class="project-kind">TEAM COURSE PROJECT · DATA 4401</span><span class="project-number">05</span></div><h3>Credit Risk<br>Analysis</h3><p>Builds and examines credit-risk models.</p><div class="tags"><span>Python</span><span>PyTorch</span><span>Error analysis</span></div><a class="source" href="https://github.com/jriggs03/credit-risk-analysis">View project <span aria-hidden="true">↗</span></a></article>
+        <article class="project"><div class="project-top"><span class="project-kind">TEAM COURSE PROJECT · STAT 551</span><span class="project-number">06</span></div><h3>Health & Alcohol<br>Classification</h3><p>Models health survey and drinking patterns.</p><div class="tags"><span>R</span><span>tidymodels</span><span>Quarto</span></div><a class="source" href="https://github.com/jriggs03/Alcohol-Consumption-trends-in-the-U.S.">View project <span aria-hidden="true">↗</span></a></article>
+        <article class="project small-work"><div class="project-top"><span class="project-kind">COURSE PROJECT · CSC 2050</span><span class="project-number">07</span></div><h3>Hash-Table<br>Word Indexer</h3><p>Indexes words and their first line numbers using a hash table.</p><div class="tags"><span>C</span><span>Memory management</span><span>File I/O</span></div><span class="private-source">Assignment source kept private</span></article>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-heading"><div class="wrap about-grid"><div><span class="eyebrow">02 / A LITTLE ABOUT ME</span><h2 id="about-heading">A data background.<br><em>A systems mindset.</em></h2></div><div class="about-copy"><p>I study Statistics at Cal Poly, San Luis Obispo, with minors in Computer Science and Data Science. I’m graduating in May 2027.</p><p>I’m especially interested in backend engineering, distributed systems, and data infrastructure. My projects range from coordinating Java workers to building a durable event pipeline and designing relational databases.</p><p>I like software that’s easy to read, reason about, and improve.</p><dl><div><dt>Working with</dt><dd>Java, Python, C, SQL, Scala, R</dd></div><div><dt>Exploring</dt><dd>Concurrency, persistence, distributed processing</dd></div></dl></div></div></section>
+
+    <section id="contact" class="wrap contact" aria-labelledby="contact-heading"><span class="eyebrow">03 / SAY HELLO</span><h2 id="contact-heading">Let’s build something<br><em>worth understanding.</em></h2><a class="email" href="mailto:James3Riggs@gmail.com">James3Riggs@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://github.com/jriggs03">GitHub ↗</a><a href="https://www.linkedin.com/in/James-Riggs/">LinkedIn ↗</a></div></section>
+  </main>
+  <footer class="wrap footer"><span>© 2026 James Riggs</span><span>Built with curiosity. Hosted on GitHub Pages.</span><a href="#">Back to top ↑</a></footer>
+</body>
+</html>
