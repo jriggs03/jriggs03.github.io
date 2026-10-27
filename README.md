@@ -1,12 +1,11 @@
-# James Riggs — Portfolio
+# My Portfolio
 
-Static portfolio at https://jriggs03.github.io. Plain HTML and CSS; no build step.
+My portfolio at https://jriggs03.github.io, built with plain HTML and CSS. There is no build step.
 
-- `index.html`: systems projects, About, and contact.
-- `stat551.html`: team applied statistical research case study and original poster.
+- `index.html`: my systems projects, About section, and contact information.
+- `stat551.html`: my team statistical research case study and original poster.
+- `assets/stat551-poster.pdf`: the original poster Jose Garcia and I presented, preserved unchanged.
 
-`assets/stat551-poster.pdf` is the original poster by Jose Garcia and James Riggs, supplied by James and published unchanged.
+The research sources and documentation are in [Alcohol-Consumption-trends-in-the-U.S.](https://github.com/jriggs03/Alcohol-Consumption-trends-in-the-U.S.).
 
-Research source and provenance: https://github.com/jriggs03/Alcohol-Consumption-trends-in-the-U.S.
-
-Keep project/team attribution and source limitations intact. Update the stylesheet version query when changing CSS. GitHub Pages serves the main branch root. To preview, serve this directory with any static web server.
+GitHub Pages serves the root of the main branch. To preview the site, serve this directory with any static web server. When I change CSS, I update the stylesheet version query to avoid stale cached styles.
