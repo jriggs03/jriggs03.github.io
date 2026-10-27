@@ -3,7 +3,9 @@
 Static portfolio at https://jriggs03.github.io. Plain HTML and CSS; no build step.
 
 - `index.html`: systems projects, About, and contact.
-- `stat551.html`: team applied statistical research case study.
+- `stat551.html`: team applied statistical research case study and original poster.
+
+`assets/stat551-poster.pdf` is the original poster by Jose Garcia and James Riggs, supplied by James and published unchanged.
 
 Research source and provenance: https://github.com/jriggs03/Alcohol-Consumption-trends-in-the-U.S.
 
