@@ -2,10 +2,8 @@
 
 Static portfolio at https://jriggs03.github.io. Plain HTML and CSS; no build step.
 
-- `index.html`: systems projects, ongoing research, About, and contact.
-- `stat551.html`: team applied statistical research case study and poster.
-- `cpe5669.html`: in-progress distributed systems research structure; topic and results pending.
-- `assets/stat551-poster.pdf`: newly prepared portfolio research summary.
+- `index.html`: systems projects, About, and contact.
+- `stat551.html`: team applied statistical research case study.
 
 Research source and provenance: https://github.com/jriggs03/Alcohol-Consumption-trends-in-the-U.S.
 
